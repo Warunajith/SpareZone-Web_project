@@ -236,13 +236,13 @@ $sql= "SELECT `id`, `name`, `price`, `des`, `stock`, `code`, `rate` FROM `items`
     <!-- The slideshow -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/<?php echo $row['code'];?>.jpg" alt="" width="700" height="550">
+            <img src="img/<?php echo $row['code'];?>.jpg" alt="" width="500" height="450">
         </div>
         <div class="carousel-item">
-            <img src="img/<?php echo $row['code'];?>-1.png" alt="" width="700" height="550">
+            <img src="img/<?php echo $row['code'];?>-1.jpg" alt="" width="500" height="450">
         </div>
         <div class="carousel-item">
-            <img src="img/<?php echo $row['code'];?>-2.png" alt="" width="700" height="550">
+            <img src="img/<?php echo $row['code'];?>-2.jpg" alt="" width="500" height="450">
         </div>
     </div>
 
