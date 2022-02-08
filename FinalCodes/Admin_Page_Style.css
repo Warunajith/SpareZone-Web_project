@@ -1,0 +1,60 @@
+
+body{
+
+    background-image: url(images/abg4.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+    background-attachment: fixed;
+}
+/*styles of icon bar */
+.maintab{
+
+    background-color: rgb(0,0,0,0.5);
+    width: 800px;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.bottom{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*style_of_icon_image*/
+
+.imgicon{
+    align-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
+}
+
+
+/* styles of administration tab */
+.admin{
+
+    width: 800px;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+ 
+/*boder styles of all card*/
+.boader{
+
+    border-radius: 15px 15px 15px 15px;
+    background-image: url(images/cbg3.jpg);
+    color: aliceblue;
+}

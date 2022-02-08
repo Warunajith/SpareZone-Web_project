@@ -1,0 +1,44 @@
+body {
+    background-image: url("images/bg1.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   }
+   .h1{
+       text-align: center;
+       text-decoration-color: #00FFFF;
+   }
+   .box{
+      width: 300px;
+      padding: 40px; 
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background: rgb(45, 75, 75);
+      text-align: center;
+      box-shadow: inset;
+      box-sizing: border-box;
+      border-radius: 25px;
+   }
+  
+   .box button[type ="submit"]{
+       border: 0;
+       background: black;
+       display: block;
+       margin: 20px auto;
+       text-align: center;
+       border: 2px solid #2ecc71;
+       padding: 14px 40px;
+       outline: none;
+       color: white;
+       border-radius: 24px;
+       transition: 0.25s;
+       cursor: pointer;
+   }
+   .box button[type ="submit"]:hover{
+       background: #35058f;
+   }
+
+   

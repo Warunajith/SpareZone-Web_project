@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    background-image: url(images/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+    background-attachment: fixed;
+}
+
+/*style_of_Loging_Here_tab*/
+
+.login{
+
+    width: 800px;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+/*style_of_icon_image*/
+
+.imgicon{
+    align-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
+}
+
+/*style_of_form*/
+
+.main{
+
+    margin-top: 10px;
+    background-color: rgb(0,0,0,0.5);
+    width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+
+form{
+    padding: 10px;
+}
+
+/*style_of_icon_image_tab*/
+
+.maintab{
+
+    background-color: rgb(0,0,0,0.5);
+    width: 800px;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bottom{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*style_of_field_names*/
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+/*style_of_text_input*/
+
+input[type=text]{
+    width: 300px;
+    border: 2px solid #aaa;
+    border-radius: 20px;
+    margin: 0;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: .3s;
+    text-align: start;
+}
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px dodgerblue;
+}
+
+/*style_of_email_input*/
+
+input[type=email]{
+    width: 300px;
+    border: 2px solid #aaa;
+    border-radius: 20px;
+    margin: 0;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: .3s;
+    text-align: start;
+}
+input[type=email]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px dodgerblue;
+}
+
+/*style_of_password_input*/
+
+input[type=password]{
+    width: 300px;
+    border: 2px solid #aaa;
+    border-radius: 20px;
+    margin: 0;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: .3s;
+    text-align: start;
+}
+input[type=password]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px dodgerblue;
+}
+
+/*stytles of login button*/
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(210, 223, 206);
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 300px;
+
+}
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: rgb(116, 23, 124);
+}
+/*change color of placeholder*/
+input::placeholder{
+    color: rgb(13, 129, 175);
+    font-size: 15px;
+}
